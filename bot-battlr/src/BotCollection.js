@@ -7,7 +7,6 @@ function BotCollection({bots, setBots}){
     const [render, setRender] = useState(false)
 
     function handleSelectClick(selected){
-        console.log(selected)
         setRender(true)
         setEnlist(selected)
      }
