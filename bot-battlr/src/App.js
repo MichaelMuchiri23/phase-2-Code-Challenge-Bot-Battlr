@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <BotCollection bots={bots} />
+      <BotCollection bots={bots} setBots={setBots} />
     </div>
   )
    
