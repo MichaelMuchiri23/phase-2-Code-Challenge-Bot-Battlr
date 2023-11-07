@@ -2,7 +2,7 @@ import React from "react";
 
 function BotItem({bot, onAddClick}){
     function handleClick(){
-        onAddClick(bot)
+        onAddClick(bot)    
     }
 
     return(
